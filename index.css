@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0C134F;
+}
+
+.MainBox
+{
+    background-color: #5C469C;
+    height: 550px;
+    width: 900px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.Display
+{
+    height: 100px;
+    background-color: #D4ADFC;
+    color: black;
+    font-size: xx-large;
+}
+
+.btn{
+    height: 450px;
+    border: 1px solid white;
+}
+
+.btn input[type='button']{
+    width:210px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 80px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 0.5s;
+    background-color: #DDE6ED;
+    border-radius: 6px;
+    color: black;
+    margin-left: 4px;
+ }
+ .btn input[type='button']:hover{
+    background-color: black;
+    color: white;
+ }
