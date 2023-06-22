@@ -1,4 +1,4 @@
-function Solve(value){
+function Perform(value){
     document.getElementById('inputDisplay').innerHTML += value
 }
 
@@ -8,7 +8,7 @@ function Result(){
     document.getElementById('inputDisplay').innerHTML = "= "+ans
 }
 
-function Clear(){
+function ClearAll(){
     document.getElementById('inputDisplay').innerHTML = ""
 }
 
