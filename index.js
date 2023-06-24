@@ -1,5 +1,5 @@
 function Perform(value){
-    document.getElementById('inputDisplay').innerHTML += value
+    document.getElementById('inputDisplay').innerHTML += value;
 }
 
 function Result(){
